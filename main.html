@@ -3,7 +3,7 @@
 <head>
     <title></title>
     <link rel="stylesheet" type="text/css" href="/static/style.css">
-    <script type="text/javascript" src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+    <script type="text/javascript" src='/static/jquery-1.11.3.js'></script>
 </head>
 <body>
 <div class='main'>
@@ -24,14 +24,14 @@
             <br>
             <div>
                 <label for="thesis_title">Title: </label>
-                <input type='text' name='label' placeholder='Title'/>
+                <input type='text' name='thesis_title' placeholder='Title'/>
                 <br>
             </div>
             <br>
             <div>
                 <label for="abstract">Abstract: </label>
                 <textarea form="form1" name="abstract" rows="10" cols="54"></textarea>
-            </div>
+            </div>          
             <br>
             <div>
                 <label for="adviser">Adviser: </label>
@@ -41,10 +41,10 @@
             <div>
                 <label for="section">Section: </label>
                 <select name="section" form="form1">
-                    <optiom value="1">1</option>
+                    <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
-                    <oprion value="4">4</option>
+                    <option value="4">4</option>
                     <option value="5">5</option>
                 </select>
             </div>
@@ -53,9 +53,7 @@
     </div>
     <div class='list-section'>
         <ul class= "thesis-list">
-
-
-
+            <!-- list will be added here -->
         </ul>
     </div>
 </div>
