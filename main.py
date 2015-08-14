@@ -42,11 +42,11 @@ class ThesisCpE(webapp2.RequestHandler):
 		for thesis in thesis:
 			thesis_list.append({
                     'id' : thesis.key.id(),
-                    'Year' : thesis.Year,
-                    'Title' : thesis.Title,
-                    'Abstract' : thesis.Abstract,
-                    'Adviser' : thesis.Adviser,
-                    'Section' : thesis.Section
+                    'Year' : thesis.year,
+                    'Title' : thesis.thesis_title,
+                    'Abstract' : thesis.abstract,
+                    'Adviser' : thesis.adviser,
+                    'Section' : thesis.section
                 })
         #return list to client
 		response = {
